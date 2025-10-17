@@ -8,9 +8,9 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Cheeko - Minecraft PvP Tier System",
+  title: "AliveTierList",
   description: "Compete. Climb. Conquer. Show your skill across all game modes.",
-  generator: "v0.app",
+  generator: "cheeko",
 }
 
 export default function RootLayout({
